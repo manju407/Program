@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Title</title>
-</head>
 <body>
 
-<h1>Heading</h1>
-<p>This is paragraph.</p>
+<p>Click the button to display the date.</p>
+
+<button onclick="displayDate()">The time is?</button>
+
+<script>
+function displayDate() {
+    document.getElementById("demo").innerHTML = Date();
+}
+</script>
+
+<p id="demo"></p>
 
 </body>
-</html>
+</html> 
